@@ -31,12 +31,12 @@ item.ironbackpacks.upgrade.filterMining.name=挖掘过滤升级
 item.ironbackpacks.upgrade.filterVoid.name=虚空过滤升级
 item.ironbackpacks.upgrade.depth.name=深度升级
 
-
 item.ironbackpacks.crafting.upgradeCore.name=升级核心
 
 
 # Creative Tab
 itemGroup.ironbackpacks=特殊背包
+
 # Commands
 chat.ironbackpacks.command.deletedEquippedPack=删除装备的背包
 chat.ironbackpacks.command.deletedYourEquippedPack=删除你装备的背包。
@@ -92,37 +92,37 @@ tooltip.ironbackpacks.backpack.upgrade.rename=( %dth 升级必须包括重命名
 tooltip.ironbackpacks.backpack.emphasis.storage=Storage Emphasis
 tooltip.ironbackpacks.backpack.emphasis.upgrade=Upgrade Emphasis
 tooltip.ironbackpacks.upgrade.cost=花费 %d 升级点数%s.
-tooltip.ironbackpacks.upgrade.minimumTier=M最低线: %s.
+tooltip.ironbackpacks.upgrade.minimumTier=最低强化: %s.
 
 # Tier names (for upgrade tooltip minimum tier)
 tooltip.ironbackpacks.backpack.tier=Tier:
-tooltip.ironbackpacks.backpack.tier.basicBackpack.name=Basic Backpack
-tooltip.ironbackpacks.backpack.tier.ironBackpack.name=Iron Backpack
-tooltip.ironbackpacks.backpack.tier.goldBackpack.name=Gold Backpack
-tooltip.ironbackpacks.backpack.tier.diamondBackpack.name=Diamond Backpack
+tooltip.ironbackpacks.backpack.tier.basicBackpack.name=基础背包
+tooltip.ironbackpacks.backpack.tier.ironBackpack.name=铁质背包
+tooltip.ironbackpacks.backpack.tier.goldBackpack.name=金质背包
+tooltip.ironbackpacks.backpack.tier.diamondBackpack.name=钻石背包
 
 tooltip.ironbackpacks.upgrade.button.desc=添加按钮到你的背包，快速整理你的背包.
 tooltip.ironbackpacks.upgrade.nesting.desc=允许你的背包塞入另一个背包.
 tooltip.ironbackpacks.upgrade.bar.desc=添加耐久进度条来使你的背包使用情况更加一目了然.
 tooltip.ironbackpacks.upgrade.soulbound.desc=可以让你在死亡重生之后保留背包 (如果你此项升级再次发挥效果需要重新安装它).
-tooltip.ironbackpacks.upgrade.quickDeposit.desc=当你shfit+右键某个某个物品时，会将你背包/身上的所有同样的物品装移到另一个容器中去.
+tooltip.ironbackpacks.upgrade.quickDeposit.desc=当你 shfit 右键某个某个物品时，会将你背包或身上的所有同样的物品装移到另一个容器中去.
 tooltip.ironbackpacks.upgrade.quickDepositPrecise.desc=类似快速存储，如果库存中已经存在的物品，只会将背包的物品放入库存中.
-tooltip.ironbackpacks.upgrade.advNesting.desc=允许你将 &oany&r &7backpack (已经任何物品) 放入背包.
+tooltip.ironbackpacks.upgrade.advNesting.desc=允许你将任意种类背包放入背包中.
 tooltip.ironbackpacks.upgrade.depth.desc=允许嵌套的背包具有完整的功能 (i.e. filter/restocking/crafting upgrades). 只能嵌套背包一次 (no infinite nesting).
 tooltip.ironbackpacks.upgrade.naming.desc=重命名你的背包.
 
 tooltip.ironbackpacks.upgrade.basicFilter.desc=背包会自动拾取过滤名单设置的物品。
 tooltip.ironbackpacks.upgrade.modSpecificFilter.desc=类似基本过滤，除了背包只会拾取同一个模组的物品。
 tooltip.ironbackpacks.upgrade.fuzzyFilter.desc=类似基本过滤，除了背包会无视物品的耐久度。
-tooltip.ironbackpacks.upgrade.oreDictFilter.desc=类似基本过滤， 除了背包只会拾取在矿物词典中注册的相同值的矿物。
+tooltip.ironbackpacks.upgrade.oreDictFilter.desc=类似基本过滤，除了背包只会拾取在矿物词典中注册的相同值的矿物。
 tooltip.ironbackpacks.upgrade.hopperFilter.desc=允许你指定一个物品从背包提供保有在你身上/快捷栏从背包提供。
-tooltip.ironbackpacks.upgrade.condenser.desc=允许你指定一组物品在背包内3X3的样式合成制作(ex: redstone -> redstone block)。
+tooltip.ironbackpacks.upgrade.condenser.desc=允许你指定一组物品在背包内3X3的样式合成制作 (ex: redstone -> redstone block)。
 tooltip.ironbackpacks.upgrade.advFilter.desc=类似基本过滤，除了该过滤具有18槽和每个槽中具有可配置的选项。
-tooltip.ironbackpacks.upgrade.miningFilter.desc=自动拾取任何矿石，宝石，或颗粒和对其他项的基本过滤(ex: cobble)。
+tooltip.ironbackpacks.upgrade.miningFilter.desc=自动拾取任何矿石，宝石，或颗粒和对其他项的基本过滤 (ex: cobble)。
 tooltip.ironbackpacks.upgrade.voidFilter.desc=会自动清除过滤设置中设定的物品。
-tooltip.ironbackpacks.upgrade.condenser.small.desc=允许你指定一组物品在背包内2X2的样式合成制作(ex: sand -> sandstone).
-tooltip.ironbackpacks.upgrade.condenser.tiny.desc=允许你指定一组物品在背包内合成制作(ex: wood -> planks).
-tooltip.ironbackpacks.upgrade.addUpgrades.desc=将另一个 %s 装到背包。 可以应用 %s 于最高等级的背包。
+tooltip.ironbackpacks.upgrade.condenser.small.desc=允许你指定一组物品在背包内2X2的样式合成制作 (ex: sand -> sandstone).
+tooltip.ironbackpacks.upgrade.condenser.tiny.desc=允许你指定一组物品在背包内合成制作 (ex: wood -> planks).
+tooltip.ironbackpacks.upgrade.addUpgrades.desc=将另一个 %s 装到背包。
 tooltip.ironbackpacks.upgrade.addUpgrades.amount.single=升级点数
 tooltip.ironbackpacks.upgrade.addUpgrades.amount.mult=%d 升级点数
 
